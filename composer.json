@@ -1,5 +1,5 @@
 {
-    "name": "laravel/reverb",
+    "name": "apalenov/reverb",
     "description": "Laravel Reverb provides a real-time WebSocket communication backend for Laravel applications.",
     "keywords": [
         "laravel",
