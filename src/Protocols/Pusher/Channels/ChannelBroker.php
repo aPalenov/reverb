@@ -16,6 +16,7 @@ class ChannelBroker
             Str::startsWith($name, 'presence-cache-') => new PresenceCacheChannel($name),
             Str::startsWith($name, 'cache') => new CacheChannel($name),
             Str::startsWith($name, 'private') => new PrivateChannel($name),
+            Str::startsWith($name, 'presence-recipient') => new PresenceRecipientChannel($name),
             Str::startsWith($name, 'presence') => new PresenceChannel($name),
             default => new Channel($name),
         };
